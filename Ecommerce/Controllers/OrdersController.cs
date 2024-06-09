@@ -48,7 +48,7 @@ namespace Ecommerce.Controllers
 
         // POST api/<OrdersController>
         [HttpPost]
-        [Authorize(Roles="admin" )]
+        [Authorize(Roles="admin,user")]
         //[Authorize(Roles = "user")]
         public async Task<IActionResult> createOrder(CreateOrderDto Dto )
         {
@@ -58,7 +58,7 @@ namespace Ecommerce.Controllers
             {
                 if (HttpContext.User is ClaimsPrincipal principal)
                 {
-                    if (principal.HasClaim(c => c.Type == "NameIdentifier")) ;
+                    if (principal.HasClaim(c => c.Type == "NameIdentifier")) ;                 //to take the id of the user who made the order
                     {
                         var responseDto = await orderServices.CreateOrder(Dto , principal);
                         if (responseDto.status == OStatus.created.ToString())

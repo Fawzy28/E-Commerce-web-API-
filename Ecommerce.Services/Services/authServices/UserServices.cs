@@ -65,24 +65,21 @@ namespace Ecommerce.Services.Services.authServices
             var roles = roleManger.Roles.ToList();                      //get all roles
             if (!roles.IsNullOrEmpty())
             {
-                List<string> rolesNamesList = new List<string>();
                 foreach (var r in roles)
                 {
-                    rolesNamesList.Add(r.Name);
-                }
 
+                    if (dto.Email.Contains(r.Name))
+                    {
+                        var res = await userManager.AddToRoleAsync(user, r.Name);
+                        if (!res.Succeeded) { return false; }
+                        return true;
+                    }
 
-                if (dto.Email.Contains("admin"))
-                {
-                    var res = await userManager.AddToRolesAsync(user, rolesNamesList);
-                    if (!res.Succeeded) { return false; }
+                    var ress = await userManager.AddToRoleAsync(user, "user");
+                    if (!ress.Succeeded) { return false; }
+
                     return true;
                 }
-
-                var ress = await userManager.AddToRoleAsync(user, "user");
-                if (!ress.Succeeded) { return false; }
-                
-                return true;
             }
             return false;
         }

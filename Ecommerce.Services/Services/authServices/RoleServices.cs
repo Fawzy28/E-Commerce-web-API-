@@ -34,9 +34,9 @@ namespace User.Ecommerce.Services.Services.authServices
             {
                 return role;               
             }
-            IdentityRole userRole = new IdentityRole(roleName);
-            await roleManager.CreateAsync(userRole);
-            return userRole;
+            IdentityRole newRole = new IdentityRole(roleName);
+            await roleManager.CreateAsync(newRole);
+            return newRole;
         }
 
 

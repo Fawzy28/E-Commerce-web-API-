@@ -40,17 +40,10 @@ namespace Ecommerce.Controllers.Authentication
                 if (addedUser == null)
                 { return BadRequest("not created"); }
 
-                // create roles first by using role services .. note we can create it by roles controller but it needs admin authorization and you won't be able to create if you are not admin  
-
-                var adminRole = await roleServices.roleCheck_Creation(new CreateOrUpdateRoleDto() { Name = "admin" });
-                if (adminRole != null)
-                {
-                    var userRole = await roleServices.roleCheck_Creation(new CreateOrUpdateRoleDto() { Name = "user" });
-                }
 
                 //consider we have admin role and any other roles ,,
-                //the admin who has "admin" word in his email => he will get all roles
-                //otherwise he will get user role 
+                //the user who has "admin" word in his email => he will get admin role   and the like for any other role
+                //otherwise he will get "user" role 
 
                 var res = await userServices.addRolesToUser(addedUser, Dto);
                 if (res == false) { return BadRequest("created without roles"); }
@@ -83,7 +76,7 @@ namespace Ecommerce.Controllers.Authentication
 
 
         //GetoneUser
-                         //  *****  for the user's account only  - by user / admin *****
+                         //  *****  for the user's account only  - by user or admin *****
 
         [HttpGet("GetOne")]
         [Authorize]
