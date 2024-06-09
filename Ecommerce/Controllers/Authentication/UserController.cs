@@ -93,7 +93,7 @@ namespace Ecommerce.Controllers.Authentication
             {
                 if (principal.HasClaim(c => c.Type == ClaimTypes.NameIdentifier ))                   //to make sure that user has claim of id 
                 {
-                    var res = userServices.GetOneUser(principal);
+                    var res = await userServices.GetOneUser(principal);
                     if (res != null) { return Ok(res); }                                   //to make sure thet user has been found
                 }
             }

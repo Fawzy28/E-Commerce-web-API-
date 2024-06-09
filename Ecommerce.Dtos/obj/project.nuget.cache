@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ax6DXmdZopzSxB3L0/DgDI+2J8/FxgF0Rrkm+6inQrr5O8fZOfr4tloa30ArxeO8UoBqb5b8WdmEUYes8BLMTQ==",
+  "dgSpecHash": "538I96SOQ7tsOxDWvkWesWBevyUNoeqKY8nGmBwjWs9IbnueQdiO0GryeSyJFhsbx58u/IFkCln/ekDC04Xmbw==",
   "success": true,
-  "projectFilePath": "D:\\ITI\\18 - dot net\\project\\finalProj\\Ecommerce\\Ecommerce.Dtos\\Ecommerce.Dtos.csproj",
+  "projectFilePath": "D:\\ITI\\18dot net\\project\\finalProj\\Repo\\E-Commerce-web-API-\\Ecommerce.Dtos\\Ecommerce.Dtos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ahmed\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\7.0.18\\microsoft.aspnetcore.cryptography.internal.7.0.18.nupkg.sha512",
     "C:\\Users\\ahmed\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\7.0.18\\microsoft.aspnetcore.cryptography.keyderivation.7.0.18.nupkg.sha512",

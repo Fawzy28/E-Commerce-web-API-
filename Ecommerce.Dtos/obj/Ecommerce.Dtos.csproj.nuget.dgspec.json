@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ITI\\18 - dot net\\project\\finalProj\\Ecommerce\\Ecommerce.Dtos\\Ecommerce.Dtos.csproj": {}
+    "D:\\ITI\\18dot net\\project\\finalProj\\Repo\\E-Commerce-web-API-\\Ecommerce.Dtos\\Ecommerce.Dtos.csproj": {}
   },
   "projects": {
-    "D:\\ITI\\18 - dot net\\project\\finalProj\\Ecommerce\\Ecommerce.Dtos\\Ecommerce.Dtos.csproj": {
+    "D:\\ITI\\18dot net\\project\\finalProj\\Repo\\E-Commerce-web-API-\\Ecommerce.Dtos\\Ecommerce.Dtos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ITI\\18 - dot net\\project\\finalProj\\Ecommerce\\Ecommerce.Dtos\\Ecommerce.Dtos.csproj",
+        "projectUniqueName": "D:\\ITI\\18dot net\\project\\finalProj\\Repo\\E-Commerce-web-API-\\Ecommerce.Dtos\\Ecommerce.Dtos.csproj",
         "projectName": "Ecommerce.Dtos",
-        "projectPath": "D:\\ITI\\18 - dot net\\project\\finalProj\\Ecommerce\\Ecommerce.Dtos\\Ecommerce.Dtos.csproj",
+        "projectPath": "D:\\ITI\\18dot net\\project\\finalProj\\Repo\\E-Commerce-web-API-\\Ecommerce.Dtos\\Ecommerce.Dtos.csproj",
         "packagesPath": "C:\\Users\\ahmed\\.nuget\\packages\\",
-        "outputPath": "D:\\ITI\\18 - dot net\\project\\finalProj\\Ecommerce\\Ecommerce.Dtos\\obj\\",
+        "outputPath": "D:\\ITI\\18dot net\\project\\finalProj\\Repo\\E-Commerce-web-API-\\Ecommerce.Dtos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ahmed\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\ITI\\18 - dot net\\project\\finalProj\\Ecommerce\\Ecommerce.Models\\Ecommerce.Models.csproj": {
-                "projectPath": "D:\\ITI\\18 - dot net\\project\\finalProj\\Ecommerce\\Ecommerce.Models\\Ecommerce.Models.csproj"
+              "D:\\ITI\\18dot net\\project\\finalProj\\Repo\\E-Commerce-web-API-\\Ecommerce.Models\\Ecommerce.Models.csproj": {
+                "projectPath": "D:\\ITI\\18dot net\\project\\finalProj\\Repo\\E-Commerce-web-API-\\Ecommerce.Models\\Ecommerce.Models.csproj"
               }
             }
           }
@@ -63,14 +63,14 @@
         }
       }
     },
-    "D:\\ITI\\18 - dot net\\project\\finalProj\\Ecommerce\\Ecommerce.Models\\Ecommerce.Models.csproj": {
+    "D:\\ITI\\18dot net\\project\\finalProj\\Repo\\E-Commerce-web-API-\\Ecommerce.Models\\Ecommerce.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ITI\\18 - dot net\\project\\finalProj\\Ecommerce\\Ecommerce.Models\\Ecommerce.Models.csproj",
+        "projectUniqueName": "D:\\ITI\\18dot net\\project\\finalProj\\Repo\\E-Commerce-web-API-\\Ecommerce.Models\\Ecommerce.Models.csproj",
         "projectName": "Ecommerce.Models",
-        "projectPath": "D:\\ITI\\18 - dot net\\project\\finalProj\\Ecommerce\\Ecommerce.Models\\Ecommerce.Models.csproj",
+        "projectPath": "D:\\ITI\\18dot net\\project\\finalProj\\Repo\\E-Commerce-web-API-\\Ecommerce.Models\\Ecommerce.Models.csproj",
         "packagesPath": "C:\\Users\\ahmed\\.nuget\\packages\\",
-        "outputPath": "D:\\ITI\\18 - dot net\\project\\finalProj\\Ecommerce\\Ecommerce.Models\\obj\\",
+        "outputPath": "D:\\ITI\\18dot net\\project\\finalProj\\Repo\\E-Commerce-web-API-\\Ecommerce.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ahmed\\AppData\\Roaming\\NuGet\\NuGet.Config",

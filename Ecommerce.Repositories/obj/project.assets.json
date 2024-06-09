@@ -2917,11 +2917,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ITI\\18 - dot net\\project\\finalProj\\Ecommerce\\Ecommerce.Repositories\\Ecommerce.Repositories.csproj",
+      "projectUniqueName": "D:\\ITI\\18dot net\\project\\finalProj\\Repo\\E-Commerce-web-API-\\Ecommerce.Repositories\\Ecommerce.Repositories.csproj",
       "projectName": "Ecommerce.Repositories",
-      "projectPath": "D:\\ITI\\18 - dot net\\project\\finalProj\\Ecommerce\\Ecommerce.Repositories\\Ecommerce.Repositories.csproj",
+      "projectPath": "D:\\ITI\\18dot net\\project\\finalProj\\Repo\\E-Commerce-web-API-\\Ecommerce.Repositories\\Ecommerce.Repositories.csproj",
       "packagesPath": "C:\\Users\\ahmed\\.nuget\\packages\\",
-      "outputPath": "D:\\ITI\\18 - dot net\\project\\finalProj\\Ecommerce\\Ecommerce.Repositories\\obj\\",
+      "outputPath": "D:\\ITI\\18dot net\\project\\finalProj\\Repo\\E-Commerce-web-API-\\Ecommerce.Repositories\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ahmed\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2938,8 +2938,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\ITI\\18 - dot net\\project\\finalProj\\Ecommerce\\Ecommerce.Context\\Ecommerce.Context.csproj": {
-              "projectPath": "D:\\ITI\\18 - dot net\\project\\finalProj\\Ecommerce\\Ecommerce.Context\\Ecommerce.Context.csproj"
+            "D:\\ITI\\18dot net\\project\\finalProj\\Repo\\E-Commerce-web-API-\\Ecommerce.Context\\Ecommerce.Context.csproj": {
+              "projectPath": "D:\\ITI\\18dot net\\project\\finalProj\\Repo\\E-Commerce-web-API-\\Ecommerce.Context\\Ecommerce.Context.csproj"
             }
           }
         }

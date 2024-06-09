@@ -52,12 +52,12 @@ namespace User.Ecommerce.Services.Services.authServices
         }
 
         //update role
-        public async Task<IdentityRole> UpdateRole(CreateOrUpdateRoleDto dto , string newName)
+        public async Task<IdentityRole> UpdateRole(CreateOrUpdateRoleDto dto , string oldName)
         {
-            var oldRole = await roleManager.FindByNameAsync(dto.Name);
+            var oldRole = await roleManager.FindByNameAsync(oldName);
             if ( oldRole != null) 
             {
-                oldRole.Name = newName;
+                oldRole.Name = dto.Name;
                 var res = await roleManager.UpdateAsync(oldRole);
                 if (res.Succeeded)
                 { return oldRole; }

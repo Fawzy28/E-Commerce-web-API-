@@ -3022,11 +3022,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ITI\\18 - dot net\\project\\finalProj\\Ecommerce\\Ecommerce.Services\\Ecommerce.Services.csproj",
+      "projectUniqueName": "D:\\ITI\\18dot net\\project\\finalProj\\Repo\\E-Commerce-web-API-\\Ecommerce.Services\\Ecommerce.Services.csproj",
       "projectName": "Ecommerce.Services",
-      "projectPath": "D:\\ITI\\18 - dot net\\project\\finalProj\\Ecommerce\\Ecommerce.Services\\Ecommerce.Services.csproj",
+      "projectPath": "D:\\ITI\\18dot net\\project\\finalProj\\Repo\\E-Commerce-web-API-\\Ecommerce.Services\\Ecommerce.Services.csproj",
       "packagesPath": "C:\\Users\\ahmed\\.nuget\\packages\\",
-      "outputPath": "D:\\ITI\\18 - dot net\\project\\finalProj\\Ecommerce\\Ecommerce.Services\\obj\\",
+      "outputPath": "D:\\ITI\\18dot net\\project\\finalProj\\Repo\\E-Commerce-web-API-\\Ecommerce.Services\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ahmed\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3043,14 +3043,14 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\ITI\\18 - dot net\\project\\finalProj\\Ecommerce\\Ecommerce.Dtos\\Ecommerce.Dtos.csproj": {
-              "projectPath": "D:\\ITI\\18 - dot net\\project\\finalProj\\Ecommerce\\Ecommerce.Dtos\\Ecommerce.Dtos.csproj"
+            "D:\\ITI\\18dot net\\project\\finalProj\\Repo\\E-Commerce-web-API-\\Ecommerce.Dtos\\Ecommerce.Dtos.csproj": {
+              "projectPath": "D:\\ITI\\18dot net\\project\\finalProj\\Repo\\E-Commerce-web-API-\\Ecommerce.Dtos\\Ecommerce.Dtos.csproj"
             },
-            "D:\\ITI\\18 - dot net\\project\\finalProj\\Ecommerce\\Ecommerce.Models\\Ecommerce.Models.csproj": {
-              "projectPath": "D:\\ITI\\18 - dot net\\project\\finalProj\\Ecommerce\\Ecommerce.Models\\Ecommerce.Models.csproj"
+            "D:\\ITI\\18dot net\\project\\finalProj\\Repo\\E-Commerce-web-API-\\Ecommerce.Models\\Ecommerce.Models.csproj": {
+              "projectPath": "D:\\ITI\\18dot net\\project\\finalProj\\Repo\\E-Commerce-web-API-\\Ecommerce.Models\\Ecommerce.Models.csproj"
             },
-            "D:\\ITI\\18 - dot net\\project\\finalProj\\Ecommerce\\Ecommerce.Repositories\\Ecommerce.Repositories.csproj": {
-              "projectPath": "D:\\ITI\\18 - dot net\\project\\finalProj\\Ecommerce\\Ecommerce.Repositories\\Ecommerce.Repositories.csproj"
+            "D:\\ITI\\18dot net\\project\\finalProj\\Repo\\E-Commerce-web-API-\\Ecommerce.Repositories\\Ecommerce.Repositories.csproj": {
+              "projectPath": "D:\\ITI\\18dot net\\project\\finalProj\\Repo\\E-Commerce-web-API-\\Ecommerce.Repositories\\Ecommerce.Repositories.csproj"
             }
           }
         }

@@ -42,7 +42,7 @@ namespace Ecommerce.Controllers.Authentication
         {
             if (ModelState.IsValid)
             {
-                var role = RoleServices.roleCheck_Creation(Dto);
+                var role = await RoleServices.roleCheck_Creation(Dto);
                 if (role != null) { return Ok(); }
 
             }
@@ -59,7 +59,7 @@ namespace Ecommerce.Controllers.Authentication
         {
             if (ModelState.IsValid)
             {
-                var role = RoleServices.UpdateRole(Dto, oldName);
+                var role = await RoleServices.UpdateRole(Dto, oldName);
                 if (role != null) { return Ok("updated"); }
             }
             return BadRequest();
@@ -72,7 +72,7 @@ namespace Ecommerce.Controllers.Authentication
         [Authorize(Roles = "admin")]
         public async Task<IActionResult> DeleteRole (string roleName)
         {
-            var role = RoleServices.DeleteRole(roleName);
+            var role = await RoleServices.DeleteRole(roleName);
                 if (role != null) { return Ok("deleted"); }
                 return BadRequest(); 
         }

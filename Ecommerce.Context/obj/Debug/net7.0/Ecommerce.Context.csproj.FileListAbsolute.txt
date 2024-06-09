@@ -15,3 +15,20 @@ D:\ITI\18 - dot net\project\finalProj\Ecommerce\Ecommerce.Context\obj\Debug\net7
 D:\ITI\18 - dot net\project\finalProj\Ecommerce\Ecommerce.Context\obj\Debug\net7.0\Ecommerce.Context.pdb
 D:\ITI\18 - dot net\project\finalProj\Ecommerce\Ecommerce.Context\obj\Debug\net7.0\Ecommerce.Context.genruntimeconfig.cache
 D:\ITI\18 - dot net\project\finalProj\Ecommerce\Ecommerce.Context\obj\Debug\net7.0\ref\Ecommerce.Context.dll
+D:\ITI\18dot net\project\finalProj\Repo\E-Commerce-web-API-\Ecommerce.Context\bin\Debug\net7.0\Ecommerce.Context.deps.json
+D:\ITI\18dot net\project\finalProj\Repo\E-Commerce-web-API-\Ecommerce.Context\bin\Debug\net7.0\Ecommerce.Context.runtimeconfig.json
+D:\ITI\18dot net\project\finalProj\Repo\E-Commerce-web-API-\Ecommerce.Context\bin\Debug\net7.0\Ecommerce.Context.dll
+D:\ITI\18dot net\project\finalProj\Repo\E-Commerce-web-API-\Ecommerce.Context\bin\Debug\net7.0\Ecommerce.Context.pdb
+D:\ITI\18dot net\project\finalProj\Repo\E-Commerce-web-API-\Ecommerce.Context\bin\Debug\net7.0\Ecommerce.Models.dll
+D:\ITI\18dot net\project\finalProj\Repo\E-Commerce-web-API-\Ecommerce.Context\bin\Debug\net7.0\Ecommerce.Models.pdb
+D:\ITI\18dot net\project\finalProj\Repo\E-Commerce-web-API-\Ecommerce.Context\obj\Debug\net7.0\Ecommerce.Context.csproj.AssemblyReference.cache
+D:\ITI\18dot net\project\finalProj\Repo\E-Commerce-web-API-\Ecommerce.Context\obj\Debug\net7.0\Ecommerce.Context.GeneratedMSBuildEditorConfig.editorconfig
+D:\ITI\18dot net\project\finalProj\Repo\E-Commerce-web-API-\Ecommerce.Context\obj\Debug\net7.0\Ecommerce.Context.AssemblyInfoInputs.cache
+D:\ITI\18dot net\project\finalProj\Repo\E-Commerce-web-API-\Ecommerce.Context\obj\Debug\net7.0\Ecommerce.Context.AssemblyInfo.cs
+D:\ITI\18dot net\project\finalProj\Repo\E-Commerce-web-API-\Ecommerce.Context\obj\Debug\net7.0\Ecommerce.Context.csproj.CoreCompileInputs.cache
+D:\ITI\18dot net\project\finalProj\Repo\E-Commerce-web-API-\Ecommerce.Context\obj\Debug\net7.0\Ecommerce.Context.csproj.CopyComplete
+D:\ITI\18dot net\project\finalProj\Repo\E-Commerce-web-API-\Ecommerce.Context\obj\Debug\net7.0\Ecommerce.Context.dll
+D:\ITI\18dot net\project\finalProj\Repo\E-Commerce-web-API-\Ecommerce.Context\obj\Debug\net7.0\refint\Ecommerce.Context.dll
+D:\ITI\18dot net\project\finalProj\Repo\E-Commerce-web-API-\Ecommerce.Context\obj\Debug\net7.0\Ecommerce.Context.pdb
+D:\ITI\18dot net\project\finalProj\Repo\E-Commerce-web-API-\Ecommerce.Context\obj\Debug\net7.0\Ecommerce.Context.genruntimeconfig.cache
+D:\ITI\18dot net\project\finalProj\Repo\E-Commerce-web-API-\Ecommerce.Context\obj\Debug\net7.0\ref\Ecommerce.Context.dll
